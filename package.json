@@ -1,0 +1,42 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.1.7",
+    "@expo/samples": "2.1.1",
+    "expo": "^32.0.0",
+    "immutability-helper": "^3.0.0",
+    "lodash": "^4.17.11",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-charts-wrapper": "^0.5.2",
+    "react-native-dashboard": "^0.0.4",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-dialog-input": "^1.0.7",
+    "react-native-elements": "^1.1.0",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-popup-dialog": "^0.18.2",
+    "react-native-pure-chart": "0.0.24",
+    "react-native-radio-buttons-group": "^1.0.7",
+    "react-native-simple-card-view": "^0.3.0",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.0.9"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true
+}
